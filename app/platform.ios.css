@@ -1,0 +1,9 @@
+.btn-link {
+  border-width: 0;
+}
+
+.btn-primary {
+  border-color: #c3cadb;
+  border-width: 1;
+  border-radius: 5px;
+}

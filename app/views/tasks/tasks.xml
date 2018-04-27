@@ -1,0 +1,22 @@
+<Page loaded="load">
+    <Page.actionBar>
+        <ActionBar title="Tasks">
+            <ActionBar.actionItems>
+                <ActionItem text="Logout" tap="logout" ios.position="right" />
+            </ActionBar.actionItems>
+        </ActionBar>
+    </Page.actionBar>
+    <GridLayout rows="auto, *" columns="2*, *">
+        <TextField id="task" text="{{ task }}" hint="Description" row="0" col="0" />
+        <Button text="Ajouter" tap="add" row="0" col="1" />
+        <ListView items="{{ taskList }}" id="taskList" row="1" colSpan="2">
+            <ListView.itemTemplate>
+                <GridLayout columns="*, auto">
+                    <Label text="{{ description }}"/>
+                    <Image src="res://ic_menu_delete" ios:visibility="collapsed" col="1" tap="delete" />
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+        <ActivityIndicator busy="{{ isLoading }}" rowSpan="2" colSpan="2" />
+    </GridLayout>
+</Page>

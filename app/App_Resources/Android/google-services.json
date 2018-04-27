@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "715771438959",
+    "firebase_url": "https://todome-6be86.firebaseio.com",
+    "project_id": "todome-6be86",
+    "storage_bucket": "todome-6be86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715771438959:android:a7f7b9b2e2f42ab6",
+        "android_client_info": {
+          "package_name": "org.nativescript.Todome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715771438959-93frcvvteho4uu955dlomf7o316uegq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgvIndIIHp7s2tNXog0sCUCkG594fhlnE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
